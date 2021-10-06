@@ -25,5 +25,5 @@ const CardDisplay = () => {
     </section>
   );
 };
-//com
+
 export default CardDisplay;
