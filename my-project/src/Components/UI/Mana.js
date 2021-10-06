@@ -1,21 +1,21 @@
-import React, { useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
+const manaRegx = /(?<={).{1,2}(?=})/g;
 
 const Mana = (props) => {
   const [manaArr, setManaArr] = useState([]);
 
-  
   useEffect(() => {
-    const manaRegx = /(?<={).{1,2}(?=})/g;
     setManaArr(props.manaInfo.match(manaRegx));
-  },[]);
+  }, [props.manaInfo]);
 
   return (
     <div className=" mt-6 mana flex">
       {manaArr.map((manaSymbol) => {
-        return ( 
+        return (
           <img
+            key={manaSymbol + Math.random}
             className="mr-4"
-            src={`../../images/${manaSymbol}.png`}
+            src={require(`../../images/${manaSymbol}.png`).default}
             alt={`${manaSymbol}`}
           />
         );

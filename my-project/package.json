@@ -12,12 +12,11 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-"scripts": {
+  "scripts": {
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": [
@@ -39,7 +38,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "file-loader": "^6.1.1",
     "postcss": "^7.0.36",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14",
+    "url-loader": "^4.1.1"
   }
 }

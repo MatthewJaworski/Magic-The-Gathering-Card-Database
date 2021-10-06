@@ -5,23 +5,25 @@ const SearchBar = () => {
   const cardData = useContext(CardContext);
   const ref = useRef();
   const [cardName, setCardName] = useState("");
-  const [data, error]=useFetch(`https://api.scryfall.com/cards/named?fuzzy=${cardName }`,cardName)
+  const [data, error] = useFetch(
+    `https://api.scryfall.com/cards/named?fuzzy=${cardName}`,
+    cardName
+  );
 
-   function fetchHandler(e) {
-    
-      e.preventDefault();
-      if(data===null){
-        cardData.setError(true);
-        return;
-      }
-      cardData.setData(data);
-      cardData.setDataIsFetched(true);
+  function fetchHandler(e) {
+    e.preventDefault();
+    if (data === null) {
+      cardData.setError(true);
+      return;
     }
-    console.log(data);
-    console.log(cardData.error)
+    cardData.setData(data);
+    cardData.setDataIsFetched(true);
+  }
+  console.log(data);
+  console.log(cardData.error);
 
   const onChangeHandler = () => {
-    setCardName(ref.current.value)
+    setCardName(ref.current.value);
   };
 
   return (

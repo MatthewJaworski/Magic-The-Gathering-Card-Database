@@ -2,7 +2,7 @@ import React from "react";
 import Mana from "./Mana";
 
 const Info = (props) => {
-console.log("daskdjalskd")
+
   return (
     
     <section className="pl-4 info-container msm:col-auto msm:mt-0 msm:row-start-3 msm:row-end-[9] relative border-l-2 info grid-cos col-start-4 col-end-8 mt-14 mb-8 pt-16 bg-white">
@@ -15,12 +15,6 @@ console.log("daskdjalskd")
             {props.cardSubName}
           </h5>
           <Mana manaInfo={props.cardMana}/>
-         {/*  <div className=" mt-6 mana flex">
-            <img className="mr-4" src={kapsd} alt="mana" />
-            <img  className="mr-4" src={kapsd} alt="mana" />
-            <img src={kapsd} className="mr-4" alt="mana" />
-            <img src={kapsd} className="mr-4" alt="mana" />
-          </div> */}
         </div>
       </div>
       <div>
