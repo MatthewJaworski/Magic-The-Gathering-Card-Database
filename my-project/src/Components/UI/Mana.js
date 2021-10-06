@@ -13,7 +13,7 @@ const Mana = (props) => {
       {manaArr.map((manaSymbol) => {
         return (
           <img
-            key={manaSymbol + Math.random}
+            key={Math.random()*100}
             className="mr-4"
             src={require(`../../images/${manaSymbol}.png`).default}
             alt={`${manaSymbol}`}
