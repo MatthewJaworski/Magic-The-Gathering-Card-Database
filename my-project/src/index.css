@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&family=Rubik:wght@300&family=Ubuntu:wght@500;700&display=swap');
+
+:root{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mana img{
+    width: 2.5625rem;
+    height: 2.5625rem;
+}
+
+@media screen and (max-width: 956px) {
+       :root{
+        font-size: 14px;
+       }  
+}
+@media screen and (max-width: 734px) {
+    :root{
+     font-size: 13px;
+    }
+}
+@media screen and (max-width: 544px) {
+    :root{
+        font-size: 11px;
+    }
+
+}
