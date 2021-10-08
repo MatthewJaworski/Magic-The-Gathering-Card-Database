@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
+
 const manaRegx = /(?<={).{1,2}(?=})/g;
 
-const Mana = (props) => {
+const CardMana = (props) => {
   const [manaArr, setManaArr] = useState([]);
 
   useEffect(() => {
@@ -15,7 +16,7 @@ const Mana = (props) => {
           <img
             key={Math.random()*100}
             className="mr-4"
-            src={require(`../../images/${manaSymbol}.png`).default}
+            src={require(`../../../images/${manaSymbol}.png`).default}
             alt={`${manaSymbol}`}
           />
         );
@@ -24,4 +25,4 @@ const Mana = (props) => {
   );
 };
 
-export default Mana;
+export default CardMana;

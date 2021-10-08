@@ -1,6 +1,6 @@
 import React, { useContext, useState, useRef } from "react";
-import CardContext from "./CardDataContext";
-import useFetch from "../Logic/hooks/use-fetch";
+import CardContext from "./../../Logic/Context/CardDataContext";
+import useFetch from "../../Logic/hooks/use-fetch";
 const SearchBar = () => {
   const cardData = useContext(CardContext);
   const ref = useRef();
@@ -13,7 +13,7 @@ const SearchBar = () => {
   function fetchHandler(e) {
     e.preventDefault();
     if (data === null) {
-      cardData.setError(true);
+      cardData.setError(error);
       return;
     }
     cardData.setData(data);
