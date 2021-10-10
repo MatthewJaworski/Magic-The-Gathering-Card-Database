@@ -6,15 +6,12 @@ module.exports = {
       Rubik: ["Rubik", "sans-serif"],
       Amethysta: ["Amethysta", "sans-serif"],
     },
+
     screens: {
-      sm: "640px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px",
-      "2xl": "1536px",
       msm: { max: "544px" },
       mmd: { max: "734px" },
       mlg: { max: "956px" },
+      mmlg: { max: "1114px" },
       mxl: { max: "1280px" },
       m2xl: { max: "1536px" },
     },
@@ -22,6 +19,7 @@ module.exports = {
       gridTemplateRows: {
         8: "repeat(8, minmax(0, 1fr))",
       },
+      textShadow: {},
       keyframes: {
         float: {
           "0%": {

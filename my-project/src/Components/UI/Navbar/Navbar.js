@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SearchBar from "./SearchBar";
+import SearchBar from "./SerachBar/SearchBar";
 import NavbarButtons from "./NavbarButtons";
 import HamburgerMenu from "./HamburgerMenu";
 import NavbarHamburgerIcon from "./NavbarHamburgerIcon";

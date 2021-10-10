@@ -3,6 +3,22 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Amethysta&family=Rubik:wght@300&family=Ubuntu:wght@500;700&display=swap');
 
+@layer utilities {
+    @variants responsive {
+        .text-shadow {
+            text-shadow: 0px 0px 3px black;
+        }
+        .text-shadow-md {
+          text-shadow: 4px 4px 8px black;
+        }
+        .text-shadow-lg {
+          text-shadow: 15px 15px 30px black;
+        }
+        .text-shadow-none {
+          text-shadow: none;
+        }
+    } 
+}
 :root{
     font-family: 'Ubuntu', sans-serif;
 }

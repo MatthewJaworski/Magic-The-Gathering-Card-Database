@@ -4,6 +4,9 @@ const asideClasses="msm:rounded-none rounded-[17px] msm:h-full msm:justify-self-
 
 
 const Card = (props) => {
+
+
+  
   return (
     <aside className={asideClasses}>
       <img
