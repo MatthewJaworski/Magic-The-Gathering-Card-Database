@@ -9,16 +9,19 @@ const CardMana = (props) => {
     setManaArr(props.manaInfo.match(manaRegx));
   }, [props.manaInfo]);
 
-  const manaSymbols = manaArr===null ? null : manaArr.map((manaSymbol) => {
-    return (
-      <img
-        key={Math.random() * 100}
-        className="mr-4"
-        src={require(`../../../images/${manaSymbol}.png`).default}
-        alt={`${manaSymbol}`}
-      />
-    );
-  });
+  const manaSymbols =
+    manaArr === null
+      ? null
+      : manaArr.map((manaSymbol) => {
+          return (
+            <img
+              key={Math.random() * 100}
+              className="mr-4"
+              src={require(`../../../images/${manaSymbol}.png`).default}
+              alt={`${manaSymbol}`}
+            />
+          );
+        });
 
   return <div className=" mt-6 mana flex">{manaSymbols}</div>;
 };

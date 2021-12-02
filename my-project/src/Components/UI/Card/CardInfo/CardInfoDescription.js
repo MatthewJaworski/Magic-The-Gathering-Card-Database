@@ -9,6 +9,7 @@ const CardInfoDescription = (props) => {
     cardIlustrationArtist,
   } = props.data;
 
+
   return (
     <>
       <div>
