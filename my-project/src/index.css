@@ -18,7 +18,20 @@
           text-shadow: none;
         }
     } 
+    @layer components{
+        .cardInfo{
+            @apply  pl-4  msm:col-auto msm:mt-0 msm:row-start-3 msm:row-end-[9] relative border-l-2  col-start-4 col-end-8 mt-14 mb-8 pt-16 bg-white;
+        }
+        .imageContainer{
+            @apply msm:rounded-none rounded-[17px] msm:h-full msm:justify-self-center msm:self-center msm:shadow-none msm:mb-[30px] msm:row-start-1 msm:row-end-3 max-w-[429px] max-h-[595px]  animate-float mx-3 flex flex-shrink min-w-0 min-h-0 overflow-hidden col-span-3 self-center justify-self-center bg-white;
+        }
+        .cardDisplaySection{
+            @apply  h-[calc(100vh-52px)] msm:mt-[50px] msm:grid msm:grid-cols-1 msm:grid-rows-8  grid grid-rows-1 grid-cols-7 bg-white;
+        }
+    }
+    
 }
+
 :root{
     font-family: 'Ubuntu', sans-serif;
 }

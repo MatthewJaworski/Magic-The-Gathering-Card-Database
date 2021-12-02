@@ -3,14 +3,10 @@ import Card from "./Card";
 import CardInfo from "./CardInfo/CardInfo";
 import CardDataContext from "./../../Logic/Context/CardDataContext";
 
-export const sectionStyle =
-  "h-[calc(100vh-52px)] msm:mt-[50px] msm:gird msm:grid-cols-1 msm:grid-rows-8  grid grid-rows-1 grid-cols-7 bg-white";
- 
 const CardDisplaySection = () => {
   
   const cardData = useContext(CardDataContext);
   const imageUrl = cardData.data.image_uris.normal;
-
   const cardInfoData = {
     cardName: cardData.data.name,
     cardSubName: cardData.data.type_line,
@@ -22,7 +18,7 @@ const CardDisplaySection = () => {
   };
 
   return (
-    <section className={sectionStyle}>
+    <section className="cardDisplaySection">
       {cardData.dataIsFetched && <Card image={imageUrl} />}
       {cardData.dataIsFetched && <CardInfo data={cardInfoData} />}
     </section>

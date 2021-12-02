@@ -22,8 +22,6 @@ function App() {
     >
       <Navbar/>
       {dataIsFetched&&<CardDisplaySection/>}
-      {!dataIsFetched && <MainSection/>}
-      {error&&<p>taki hcuyj</p>}
     </CardDataContext.Provider>
   );
 }

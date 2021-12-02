@@ -8,7 +8,7 @@ const Card = (props) => {
 
   
   return (
-    <aside className={asideClasses}>
+    <aside className="imageContainer">
       <img
         className="msm:rounded-none min-w-0 min-h-0 shadow-2xl  "
         src={props.image}
