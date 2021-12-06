@@ -40,6 +40,201 @@
     width: 2.5625rem;
     height: 2.5625rem;
 }
+.card-symbol{
+    display: inline-block;
+    margin: 1px 1px -1px 1px;
+    border-radius: 500px;
+    text-indent: -999rem;
+    overflow: hidden;
+    width: 15px;
+    height: 15px;
+    background-size: 100% 100%;
+    background-position: top left;
+
+}
+.card-symbol-0{
+    background-image: url(images/0.png);
+}
+.card-symbol-1{
+    background-image: url(images/1.png);
+}
+.card-symbol-2{
+    background-image: url(images/2.png);
+}
+.card-symbol-3{
+    background-image: url(images/3.png);
+}
+.card-symbol-4{
+    background-image: url(images/4.png);
+}
+.card-symbol-5{
+    background-image: url(images/5.png);
+}
+.card-symbol-6{
+    background-image: url(images/6.png);
+}
+.card-symbol-7{
+    background-image: url(images/7.png);
+}
+.card-symbol-8{
+    background-image: url(images/8.png);
+}
+.card-symbol-9{
+    background-image: url(images/9.png);
+}
+.card-symbol-10{
+    background-image: url(images/10.png);
+}
+.card-symbol-11{
+    background-image: url(images/11.png);
+}
+.card-symbol-12{
+    background-image: url(images/12.png);
+}
+.card-symbol-13{
+    background-image: url(images/13.png);
+}
+.card-symbol-14{
+    background-image: url(images/14.png);
+}
+.card-symbol-15{
+    background-image: url(images/15.png);
+}
+.card-symbol-16{
+    background-image: url(images/16.png);
+}
+.card-symbol-17{
+    background-image: url(images/17.png);
+}
+.card-symbol-18{
+    background-image: url(images/18.png);
+}
+.card-symbol-19{
+    background-image: url(images/19.png);
+}
+.card-symbol-20{
+    background-image: url(images/20.png);
+}
+.card-symbol-100{
+    background-image: url(images/100.png);
+}
+.card-symbol-T{
+    background-image: url(images/T.png);
+}
+.card-symbol-Q{
+    background-image: url(images/Q.png);
+}
+.card-symbol-E{
+    background-image: url(images/E.png);
+}
+.card-symbol-PW{
+    background-image: url(images/PW.png);
+}
+.card-symbol-CHAOS{
+    background-image: url(images/CHAOS.png);
+}
+.card-symbol-A{
+    background-image: url(images/Z.png);
+}
+.card-symbol-X{
+    background-image: url(images/X.png);
+}
+.card-symbol-Y{
+    background-image: url(images/Y.png);
+}
+.card-symbol-Z{
+    background-image: url(images/Z.png);
+}
+.card-symbol-∞{
+    background-image: url(images/∞.png);
+}
+.card-symbol-WU{
+    background-image: url(images/WU.png);
+}
+.card-symbol-WB{
+    background-image: url(images/WB.png);
+}
+.card-symbol-BR{
+    background-image: url(images/BR.png);
+}
+.card-symbol-GB{
+    background-image: url(images/GB.png);
+}
+.card-symbol-UB{
+    background-image: url(images/UB.png);
+}
+.card-symbol-UR{
+    background-image: url(images/UR.png);
+}
+.card-symbol-RG{
+    background-image: url(images/RG.png);
+}
+.card-symbol-RW{
+    background-image: url(images/RW.png);
+}
+.card-symbol-GW{
+    background-image: url(images/GW.png);
+}
+.card-symbol-GU{
+    background-image: url(images/GU.png);
+}
+.card-symbol-2W{
+    background-image: url(images/2W.png);
+}
+.card-symbol-2U{
+    background-image: url(images/2U.png);
+}
+.card-symbol-2B{
+    background-image: url(images/2B.png);
+}
+.card-symbol-2G{
+    background-image: url(images/2W.png);
+}
+.card-symbol-2R{
+    background-image: url(images/2R.png);
+}
+.card-symbol-P{
+    background-image: url(images/P.png);
+}
+.card-symbol-WP{
+    background-image: url(images/WP.png);
+}
+.card-symbol-UP{
+    background-image: url(images/UP.png);
+}
+.card-symbol-BP{
+    background-image: url(images/BP.png);
+}
+.card-symbol-RP{
+    background-image: url(images/RP.png);
+}
+.card-symbol-GP{
+    background-image: url(images/GP.png);
+}
+.card-symbol-W{
+    background-image: url(images/W.png);
+}
+.card-symbol-U{
+    background-image: url(images/U.png);
+}
+.card-symbol-B{
+    background-image: url(images/B.png);
+}
+.card-symbol-R{
+    background-image: url(images/R.png);
+}
+.card-symbol-G{
+    background-image: url(images/G.png);
+}
+.card-symbol-C{
+    background-image: url(images/C.png);
+}
+.card-symbol-S{
+    background-image: url(images/S.png);
+}
+
+
+
 
 @media screen and (max-width: 956px) {
        :root{
