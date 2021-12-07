@@ -115,9 +115,6 @@
 .card-symbol-20{
     background-image: url(images/20.png);
 }
-.card-symbol-100{
-    background-image: url(images/100.png);
-}
 .card-symbol-T{
     background-image: url(images/T.png);
 }
@@ -157,8 +154,8 @@
 .card-symbol-BR{
     background-image: url(images/BR.png);
 }
-.card-symbol-GB{
-    background-image: url(images/GB.png);
+.card-symbol-BG{
+    background-image: url(images/BG.png);
 }
 .card-symbol-UB{
     background-image: url(images/UB.png);
