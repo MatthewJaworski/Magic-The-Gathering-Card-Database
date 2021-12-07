@@ -1,5 +1,5 @@
 import React from "react";
-
+import CardDescrption from "./CardDescrption";
 const CardInfoDescription = (props) => {
     
   const {
@@ -12,9 +12,7 @@ const CardInfoDescription = (props) => {
 
   return (
     <>
-      <div>
-        <p className="text-xl font-Rubik uppercase mt-10">{cardDescription}</p>
-      </div>
+      <CardDescrption text={cardDescription}/>
       <div className="stats text-right mt-24 mr-28">
        {cardCreaturePower && <p className=" inline-block w-full text-6xl">{`${cardCreaturePower}/${cardCreatureToughness}`}</p>}
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import CardInfoTitle from "./CardInfoTitle";
-import CardInfoDescription from "./CardInfoDescription";
+import CardInfoDescription from "./CardInfoDescription/CardInfoDescription";
 
 
 const CardInfo = (props) => {
