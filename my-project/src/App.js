@@ -21,6 +21,7 @@ function App() {
       }}
     >
       <Navbar/>
+      {!dataIsFetched&&<MainSection/>}
       {dataIsFetched&&<CardDisplaySection/>}
     </CardDataContext.Provider>
   );
