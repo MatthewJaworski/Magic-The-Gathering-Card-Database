@@ -1,0 +1,60 @@
+.mainsection {
+  background-color: #e2e2e2;
+  height: calc(100vh - 72px);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.mainsection__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+.mainsection__left__container {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.mainsection__left .wrapper {
+  margin-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.mainsection__left .wrapper__heading {
+  margin-bottom: 1rem;
+  font-size: 6rem;
+  font-weight: bold;
+  text-shadow: 0.1em 0.1em 0 #93aaeb;
+}
+
+.mainsection__left .wrapper__paragraph {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+/*# sourceMappingURL=WelcomePage.css.map */

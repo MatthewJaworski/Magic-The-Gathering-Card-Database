@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./../../../styles/Navbar.css";
 import SearchBar from "./SerachBar/SearchBar";
 import NavbarButtons from "./NavbarButtons";
 import HamburgerMenu from "./HamburgerMenu";
@@ -13,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className=" navbar mlg:items-center h-[52px] overflow-hidden flex items-center navbar justify-between  bg-gray-700">
+      <nav className="navbar">
         <SearchBar />
         <NavbarButtons />
         <NavbarHamburgerIcon onClick={hamburgerClickHandler} />

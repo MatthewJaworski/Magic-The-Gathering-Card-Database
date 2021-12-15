@@ -3,7 +3,7 @@ import Button from "../Button";
 const NavbarHamburgerIcon = (props) => {
   return (
       
-    <Button divStyle="hidden mlg:inline-block mr-4" onClick={props.onClick}>
+    <Button divStyle=" navbar__hamburgericon hidden mlg:inline-block mr-4" onClick={props.onClick}>
       <span className="flex">
         <svg
           className="hamburger-svg fill-[#fff]"

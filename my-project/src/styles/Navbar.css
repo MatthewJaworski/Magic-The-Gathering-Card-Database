@@ -1,1 +1,152 @@
-/* No CSS *//*# sourceMappingURL=Navbar.css.map */
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #2a2a2a;
+  width: 100%;
+}
+
+.navbar__searchbar {
+  min-width: 0px;
+  max-width: 863px;
+  width: 100%;
+  margin: 0.5rem 1rem;
+}
+
+.navbar__searchbar__wrapper {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 999px;
+  padding: 0 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 1rem;
+}
+
+.navbar__searchbar__wrapper button {
+  background: none;
+  border: none;
+}
+
+.navbar__searchbar__wrapper svg {
+  height: 1rem;
+  width: 1rem;
+  background: none;
+  margin-right: 0.25rem;
+  color: black;
+  cursor: pointer;
+}
+
+.navbar__searchbar__wrapper__input {
+  border: none;
+  min-width: 0;
+  max-width: 663px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  outline: none;
+}
+
+.navbar__searchbar__wrapper__input:focus {
+  color: black;
+}
+
+.navbar__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 754px) {
+  .navbar__buttons {
+    gap: 0px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .navbar__buttons {
+    display: none;
+  }
+}
+
+.navbar__buttons--primary {
+  padding: 0.25rem 2rem;
+  min-width: 0;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 1rem 0;
+  white-space: nowrap;
+}
+
+.navbar__hamburgericon {
+  display: none;
+  margin-right: 0.5rem;
+}
+
+.navbar__hamburgericon button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.navbar__hamburgericon span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar__hamburgericon span svg {
+  fill: white;
+}
+
+@media only screen and (max-width: 550px) {
+  .navbar__hamburgericon {
+    display: inline-block;
+  }
+}
+
+.hamburgermenu {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-width: 100%;
+  background-color: #2a2a2a;
+  border: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.hamburgermenu__container__button {
+  background: none;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 1.25rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+/*# sourceMappingURL=Navbar.css.map */

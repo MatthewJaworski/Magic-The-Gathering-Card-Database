@@ -31,12 +31,12 @@ const SearchBar = () => {
   };
 
   return (
-    <form className="  mlg:mx-[2rem] 2xl:ml-20 xl:ml-10 w-[100%] min-w-[0px] max-w-[663px]">
-      <div className="h-[40px] bg-white  flex items-center justify-between rounded-full ">
+    <form className="navbar__searchbar">
+      <div className="navbar__searchbar__wrapper">
         <input
           onChange={onChangeHandler}
           ref={ref}
-          className=" min-w-0 ml-3 flex-grow  outline-none text-gray-600 focus:text-blue-600"
+          className="navbar__searchbar__wrapper__input"
           type="text"
           placeholder="Search"
         />

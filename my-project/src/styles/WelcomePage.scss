@@ -1,0 +1,37 @@
+.mainsection{
+    background-color: rgb(226, 226, 226);
+    height: calc(100vh - 72px);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+   &__left{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       text-align: left;
+        &__container{
+            display: grid;
+            place-content: center;
+        }
+       .wrapper{
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items:flex-start;
+        &__heading{
+            margin-bottom:1rem ;
+            font-size: 6rem;
+            font-weight: bold;
+            text-shadow: .1em .1em 0 rgb(147, 170, 235);
+        }
+        &__paragraph{
+            font-family: 'Rubik', sans-serif;
+            font-size: 2rem;
+            margin-bottom: 4rem;
+        }
+       }
+   } 
+
+}
