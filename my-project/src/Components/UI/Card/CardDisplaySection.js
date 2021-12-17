@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Card from "./Card";
 import CardInfo from "./CardInfo/CardInfo";
 import CardDataContext from "./../../Logic/Context/CardDataContext";
-
+import "./../../../styles/CardDisplaySection.css"
 const CardDisplaySection = () => {
   
   const cardData = useContext(CardDataContext);

@@ -23,7 +23,7 @@ const CardMana = (props) => {
           );
         });
 
-  return <div className=" mt-6 mana flex">{manaSymbols}</div>;
+  return <div className=" cardMana mt-6 mana flex">{manaSymbols}</div>;
 };
 
 export default CardMana;

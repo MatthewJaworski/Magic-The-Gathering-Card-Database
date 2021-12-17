@@ -25,14 +25,14 @@ const CardDescrption = (props) => {
   } 
 
   return (
-    <div>
+    <div className="CardDescription__Wrapper">
       {symbolsArray && (
         <p
-          className="text-xl font-Rubik uppercase mt-10"
+          className="description  "
           dangerouslySetInnerHTML={{ __html: slowo }}
         ></p>
       )}
-      {!symbolsArray && <p className="text-xl font-Rubik uppercase mt-10">{props.text}</p>}
+      {!symbolsArray && <p className=" description">{props.text}</p>}
     </div>
   );
 };

@@ -1,37 +1,66 @@
-.mainsection{
-    background-color: rgb(226, 226, 226);
+.mainsection {
+    background-color: #e2e2e2;
     height: calc(100vh - 72px);
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 
-   &__left{
-       display: flex;
-       justify-content: center;
-       flex-direction: column;
-       align-items: center;
-       text-align: left;
-        &__container{
+    &__left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        &__container {
+            border-radius: 87px;
+            background: linear-gradient(145deg, #f2f2f2, #cbcbcb);
+            box-shadow: 41px 41px 82px #737373, -41px -41px 82px #ffffff;
+            padding: 2rem;
+            margin-left: 2rem;
             display: grid;
             place-content: center;
         }
-       .wrapper{
-        margin-left: 2rem;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        align-items:flex-start;
-        &__heading{
-            margin-bottom:1rem ;
-            font-size: 6rem;
-            font-weight: bold;
-            text-shadow: .1em .1em 0 rgb(147, 170, 235);
+        .wrapper {
+            margin-left: 2rem;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            align-items: flex-start;
+            &__heading {
+                margin-bottom: 1rem;
+                font-size: 6rem;
+                font-weight: bold;
+            }
+            &__paragraph {
+                font-family: "Rubik", sans-serif;
+                font-size: 2rem;
+                margin-bottom: 4rem;
+            }
         }
-        &__paragraph{
-            font-family: 'Rubik', sans-serif;
-            font-size: 2rem;
-            margin-bottom: 4rem;
-        }
-       }
-   } 
+    }
+    @media only screen and (max-width: 1100px) {
+        grid-template-columns: repeat(1, 1fr);
 
+        &__left {
+          
+            &__container {
+               margin: 0 5rem;
+
+            }
+            .wrapper {
+                display: flex;
+                align-items: center;
+               margin: 0;
+               justify-content: center;
+                &__heading {
+                    display: inline-block;
+                 font-size: 5rem;
+                 text-align: center;
+                }
+                &__paragraph {
+                    text-align: center;
+                    font-size: 1.5rem;
+                }
+            }
+    }
+}
 }

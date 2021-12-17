@@ -16,7 +16,7 @@ const CardInfoDescription = (props) => {
       <div className="stats text-right mt-24 mr-28">
        {cardCreaturePower && <p className=" inline-block w-full text-6xl">{`${cardCreaturePower}/${cardCreatureToughness}`}</p>}
       </div>
-      <p className="text-sm font-Amethysta">
+      <p className=" illustrated text-sm font-Amethysta">
         Illustrated by {cardIlustrationArtist}
       </p>
     </>

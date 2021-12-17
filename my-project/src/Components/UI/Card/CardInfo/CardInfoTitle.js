@@ -6,12 +6,12 @@ const CardInfoTitle = (props) => {
 
   return (
     <>
-      <div className="flex flex-grow w-full min-w-0 overflow-hidden">
-        <div className="min-w-0 overflow-hidden">
-          <h1 className=" text-5xl flex-wrap break-words  cardName uppercase font-bold mb-1">
+      <div className="cardInfoTitle">
+        <div className="cardInfoTitle__wrapper">
+          <h1 className="  cardName uppercase font-bold mb-1">
             {cardName}
           </h1>
-          <h5 className=" text-lg subName uppercase font-medium">
+          <h5 className="subName uppercase font-medium">
             {cardSubName}
           </h5>
           <CardMana manaInfo={cardMana} />
