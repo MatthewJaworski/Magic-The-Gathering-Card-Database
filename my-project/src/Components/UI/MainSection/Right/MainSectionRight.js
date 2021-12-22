@@ -1,8 +1,13 @@
 import React from "react";
-
+import "./../../../../styles/WelcomePage.css";
+import CardGallerySlider from "./CardsGallerySlider";
 const MainSectionRight = () => {
   return (
-    <div className="bg-gray-500 col-start-0 msm:row-start-[7] msm:row-end-[9] "></div>
+    <div className="mainsection__right">
+      <CardGallerySlider/>
+      <CardGallerySlider/>
+      <CardGallerySlider/>
+    </div>
   );
 };
 
