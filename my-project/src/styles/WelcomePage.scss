@@ -3,7 +3,7 @@
         transform: translate3d(0, 0, 0);
     }
     100% {
-        transform: translate3d(0, -72.1875rem, 0); /* The image width */
+        transform: translate3d(0, -50%, 0); /* The image width */
     }
 }
 
@@ -22,6 +22,7 @@
             overflow: hidden;
 
             &__wrapper {
+                animation: slide 15s linear infinite;
                 will-change: transform;
                 width: 100%;
                 display: flex;
@@ -30,13 +31,13 @@
                 padding: 0rem 1rem 1rem 1rem;
                 overflow: hidden;
                 .sliderItem {
-                    animation: slide 15s linear infinite;
                     overflow: hidden;
-                    max-width: 9.6875rem;
-                    max-height: 13.4375rem;
+                    max-width: 17.0625rem;
+                    max-height: 23.75rem;
                     &__image {
-                        max-width: 9.6875rem;
-                        max-height: 13.4375rem;
+                        max-width: 17.0625rem;
+                        max-height: 23.75rem;
+                        border-radius: 16px;
                     }
                 }
             }

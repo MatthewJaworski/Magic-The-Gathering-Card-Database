@@ -6,7 +6,6 @@ const MainSectionRight = () => {
     <div className="mainsection__right">
       <CardGallerySlider/>
       <CardGallerySlider/>
-      <CardGallerySlider/>
     </div>
   );
 };

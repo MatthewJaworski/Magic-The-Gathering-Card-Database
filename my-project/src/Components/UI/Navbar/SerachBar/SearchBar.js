@@ -23,9 +23,6 @@ const SearchBar = () => {
     cardData.setData(data);
     cardData.setDataIsFetched(true);
   }
-  console.log(data);
-  console.log(cardData.error);
-
   const onChangeHandler = () => {
     setCardName(ref.current.value);
   };
