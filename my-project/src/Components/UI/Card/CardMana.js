@@ -10,9 +10,7 @@ const CardMana = (props) => {
   }, [props.manaInfo]);
 
   const manaSymbols =
-    manaArr === null
-      ? null
-      : manaArr.map((manaSymbol) => {
+    manaArr === null ? null : manaArr.map((manaSymbol) => {
           return (
             <img
               key={Math.random() * 100}
